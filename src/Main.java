@@ -15,8 +15,6 @@ public class Main {
                 "\n" +
                 "Integer vitae nibh ante. Sed eleifend, eros consectetur maximus ultrices, turpis libero convallis neque, sed mollis erat nisi sit amet lectus. Sed in varius risus. Nam interdum risus ut metus euismod vehicula. In consectetur rutrum arcu et finibus. Etiam convallis sed erat sit amet molestie. Maecenas vitae tellus vel quam cursus sollicitudin et vel nisl. Quisque accumsan rutrum lacus, ac tempor augue tincidunt non. Cras eleifend ac dui nec consectetur. Donec vehicula sodales magna, id faucibus lorem facilisis eget. Sed consectetur id lorem at dignissim.";
 
-        Scanner in = new Scanner(System.in);
-//        String text = in.nextLine();
         String text = str;
         while (text.contains("\n\n")) {
             text = text.replaceAll("\n\n", "\n");
